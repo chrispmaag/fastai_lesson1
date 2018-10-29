@@ -5,7 +5,7 @@
 
 ## Credit
 
-This notebook is provided by Jeremy Howard's fastai ![deep learning course](http://course.fast.ai/ "Fastai"). I've applied it to a new set of images downloaded from the web.
+This notebook is provided by Jeremy Howard's fastai [deep learning course](http://course.fast.ai/ "Fastai"). I've applied it to a new set of images downloaded from the web.
 
 ## Packages
 
