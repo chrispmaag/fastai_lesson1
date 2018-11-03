@@ -25,10 +25,10 @@ The main file is **download_images-cpm.ipynb**, which walks through grabbing the
 
 ![Confusion Matrix](images/confusion_matrix.png "Confusion Matrix")
 
-The model only made 3 mistakes!
+The model only made 6 mistakes!
 
-### Let's look at the 3 mistakes
+### Let's look at the 6 mistakes
 
-![3 Mistakes](images/top_losses.png "3 Mistakes")
+![6 Mistakes](images/top_losses.png "6 Mistakes")
 
-Each of the three mistakes is much different than the typical nature shot of the animals. The first image looks like a computer-generated panda, the second is a t-shirt featuring a koala, and the final mistake was on a kid wearing a costume. These are all artifacts of doing a bulk pull from Google Images. If we wanted, we could easily clean up the data set to focus only on animals in the wild.
+Five of the six mistakes are much different than typical nature images. Four of the images are cartoons or dolls. In the image with the tree, the leaves almost completely obscure the animal. These are all artifacts of doing a bulk pull from Google Images. If we wanted, we could easily clean up the data set to focus only on animals in the wild.
